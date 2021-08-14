@@ -1,0 +1,23 @@
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.detail-container .error-message, .detail-container .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-container .detail-list {
+  flex: 0.7
+}
+
+.detail-container ul li {
+  padding: 4px;
+}
+
+.detail-container .refersh-text {
+  margin-right: 10px;
+}
